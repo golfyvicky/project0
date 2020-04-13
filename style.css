@@ -4,10 +4,35 @@ h1
         text-align:center;
         font-family:Arial, sans-serif
     }
-div{
-    background-color: darkslategray;
+#top{
+    background-color: #8c0c03;
     width: auto;
     height: auto;
     font-size: medium;
     color:white;
+    padding: 5px;
+    margin: auto;
 }    
+.column{
+    background-color: #e6d707;
+    float: left;
+    width: 15%;
+    height: 100%;
+    padding-left:5px;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+.center_column{
+    background-color: #ccdbeb;
+    float: right;
+    width: 80%;
+    height:100%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 10px;
+
+}
+#a{
+    color: white;
+}
