@@ -1,0 +1,96 @@
+h1{
+    text-align: center;
+    padding: 20px;
+    font-size: 48px;
+    font-family: 'Palatino','Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#top{
+    background-color: #272727;
+    @media screen and (max-width: 599px){
+        background-color : lavender; 
+        color: #272727;   
+        font-weight: bolder;
+    }
+    width: auto;
+    height: auto;
+    font-size: large;
+    color:white;
+    padding: 5px;
+    margin: auto;
+}
+.container-fluid{
+    background-color:#659dbd;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width :599px){
+    .image_section{
+        display: none;
+    }
+    .side_section{
+        width: auto;
+    }
+}
+@media (min-width : 600px){
+    .badge::before{
+        content: "Understanding ";
+    }
+    .side_section{
+        width: 250px;
+    }
+}
+.image_section{
+    @extend .container-fluid;
+    background-color: #272727;
+}
+.side_section{
+    @extend .container-fluid;
+    background-color: white;
+    color: #2f2af2;
+    margin: 20px;
+    align-content: center;
+    position: relative;
+}
+.main_section{
+    @extend .container-fluid;
+    background-color: lightsteelblue;
+    text-align: justify;
+    margin: 20px;
+    width: auto;
+}
+ul{
+    text-align: left;
+}
+#content_image{
+    text-align: center;
+}
+.highlight{
+    font-weight: bold;
+}
+p::selection{
+    background-color: gold;
+    color: red;
+}
+.highlight::selection{
+    background-color: gold;
+    color: red;
+}
+table{
+    border: 2px solid #272727;
+    margin: 20px;
+
+}
+th, td{
+    border: 1px solid #272727;
+    border-collapse: collapse;
+    padding: 5px;
+}
+th{ 
+    background-color: #272727 ;
+    color: white;
+    text-align: center;
+}

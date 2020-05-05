@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="Stylesheet" href="style.css">
-        <title>My WebPage!</title>
+        <title>Project_Zero</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Computer Forensics</h1>
-        <div id = "top">Types of Cyber Forensics</div>
-        <div class ="column">
-            <h3>Sections</h3>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="background.html">Background</a></li>
-                <li><a href="types.html">Types & Tools</a></li>
-                <li><a href="process.html">Process</a></li>
-                <li><a href="advantages.html">Advantages and Challenges</a></li>
-            </ul>
-        </div>
-        <div class="center_column">
-            <h2>Types</h2>
-            <p>The various types of Digital Forensics are:</p>
-            <h3>Disk Forensics</h3>
-            <p>It deals with extracting data from storage media by searching active, modified, or deleted files.</p>
-            <h3>Network Forensics</h3>
-            <p>It is a sub-branch of digital forensics. It is 
+        <h1><span class="badge badge-primary">Cyber Forensics</h1>
+            <div id="top">Types and Tools</div>
+        <div class="container-fluid">
+            <div class="side_section">
+                <h5>Sections</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="background.html">Background</a></li>
+                    <li><a href="types.html">Types and Tools</a></li>
+                    <li><a href="process.html">Process</a></li>
+                    <li><a href="advantages.html">Advantages & Challenges</a></li>
+                </ul>
+            </div>
+            <div class="image_section"><img src="thumbs.jpg" width="50%"></div>
+            <div class="main_section ">
+                <div>
+                    <h2>Types</h2>
+                    <p>The various types of Digital Forensics are:</p>
+                    <h4>Disk Forensics</h4>
+                    <p>It deals with extracting data from storage media by searching active, modified, or deleted files.</p>
+                <h4>Network Forensics</h4>
+                <p>It is a sub-branch of digital forensics. It is 
                 related to monitoring and analysis of computer network traffic to collect important information and legal evidence.</p> 
-            <h3>Malware Forensics</h3>
-            <p>This branch deals with the identification of malicious code, to study their payload, viruses, worms, etc.</p> 
-            <h3>Email Forensics</h3>
-            <p>Deals with recovery and analysis of emails, including deleted emails, calendars, and contacts.</p>   
-            <h3>Memory Forensics</h3>
-            <p>It deals with collecting data from system memory (system registers, cache, RAM) in raw form and then 
-                carving the data from Raw dump.</p>
-            <h3>Mobile Phone Forensics</h3>
-            <p>It mainly deals with the examination and analysis of mobile devices. It helps to retrieve phone and SIM contacts, 
+                <h4>Malware Forensics</h4>
+                <p>This branch deals with the identification of malicious code, to study their payload, viruses, worms, etc.</p> 
+                <h4>Email Forensics</h4>
+                <p>Deals with recovery and analysis of emails, including deleted emails, calendars, and contacts.</p>   
+                <h4>Memory Forensics</h4>
+                <p>It deals with collecting data from system memory (system registers, cache, RAM) in raw form and then 
+                    carving the data from Raw dump.</p>
+                <h4>Mobile Phone Forensics</h4>
+                <p>It mainly deals with the examination and analysis of mobile devices. It helps to retrieve phone and SIM contacts, 
                 call logs, incoming, and outgoing SMS/MMS, Audio, videos, etc</p>  
-            <h2>Tools</h2>  
-            <p>The computer is a reliable witness that cannot lie. Digital evidence contains an unfiltered account of a 
-                suspect’s activity, recorded in his or her direct words and actions.Previously, we had many computer 
-                forensic tools that were used to apply forensic techniques to the computer. However, we have listed few best forensic tools 
-                that are promising for today’s computers:</p>
+                <h4>Tools</h4>  
+                <p>The computer is a reliable witness that cannot lie. Digital evidence contains an unfiltered account of a 
+                    suspect’s activity, recorded in his or her direct words and actions.Previously, we had many computer 
+                    forensic tools that were used to apply forensic techniques to the computer. However, we have listed few best forensic tools 
+                    that are promising for today’s computers:</p>
                 <ol>
                     <li>SANS SIFT</li>
                     <li>Pro DISCOVER Forensics</li>
@@ -49,10 +54,12 @@
                     <li>The Sleuth Kit</li>
                     <li>X-ways Forensics</li>
                 </ol>
-        </div>
-        <div id="bottom">
-            The website has been created from educational point of view. The site is not meant for 
-            commercial purposes. 
-        </div>
+                </div>
+                <div class="text-center">
+                    <a class="btn btn-secondary" href="background.html" role="button">Previous</a>
+                    <a class="btn btn-primary" href="process.html" role="button">Next</a>
+                </div>
+            </div>
+        </div>    
     </body>
 </html>
